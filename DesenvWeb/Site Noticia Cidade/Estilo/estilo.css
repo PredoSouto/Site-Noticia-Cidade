@@ -5,5 +5,22 @@
 
 body{
 	font-family: "Trebuchet MS", helvetica, sans-serif;
-	background: #fff url(../imagens/fundo.png);
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo{
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+}
+
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat;
 }
